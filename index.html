@@ -12,20 +12,38 @@
 <body>
   <header>
     <img src="image/isaac-logo.png" alt="a logo page about Isaac">
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#work">Work</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <nav style="background:lightslategray; padding:30px; border-radius:8px;">
+      <ul style="display:flex;">
+        <li style="list-style:none; margin-right:80px;">
+          <a style="text-decoration:none; color:#000;" href="#home">Home</a>
+        </li>
+
+        <li style="list-style:none; margin-right:80px;">
+          <a style="text-decoration:none; color:#000;" href="#about">About</a>
+        </li>
+
+        <li style="list-style:none; margin-right:80px;">
+          <a style="text-decoration:none; color:#000;" href="#work">Work</a>
+        </li>
+
+        <li style="list-style:none; margin-right:80px;">
+          <a style="text-decoration:none; color:#000;" href="#resume">Resume</a>
+        </li>
+
+        <li style="list-style:none; margin-right:80px;">
+          <a style="text-decoration:none; color:#000;" href="#contact">Contact</a>
+        </li>
+
+        <li style="list-style:none; margin-right:80px;">
+          <a href="#login" style="text-decoration:none; color:#000;">Login</a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home">
-      <h2>Home Page</h2>
+    <section id="home" style="background:lightgoldenrodyellow; border-radius:8px; padding:10px;">
+      <h2>Demo Page</h2>
       <img src="image/kids.JPG" alt="3 kids eating watermelon fruit" style="height:500px;">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum eos eaque eum vitae, unde maxime omnis asperiores
         necessitatibus fugiat neque repellendus nobis commodi libero dicta harum magni impedit autem possimus.
@@ -38,7 +56,7 @@
       </p>
     </section>
 
-    <section id="about">
+    <section id="about" style="background:#aaaccc; border-radius:8px; padding:10px;">
       <h2>About Page</h2>
       <img src="image/isaac-logo.jpeg.jpeg" alt="a logo with the inscription Isaac" style="height:300px">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti asperiores deserunt quidem obcaecati sed quia
@@ -51,7 +69,7 @@
       </p>
     </section>
 
-    <section id="work">
+    <section id="work" style="background:#bbbe12; border-radius:8px; padding:10px;">
       <h2>Work Page</h2>
       <img src="image/rashford.JPG" alt="a picture of a footballer" style="height:500px;">
       <p>
@@ -64,7 +82,7 @@
       </p>
     </section>
 
-    <section id="resume">
+    <section id="resume" style="background:#cee; border-radius:8px; padding:10px;">
       <h2>Resume Page</h2>
       <img src="image/panoramic.jpg.jpg" alt="a lovely hilly picture" style="height:200px;">
       <p>
@@ -78,7 +96,7 @@
       </p>
     </section>
 
-    <section id="contact">
+    <section id="contact" style="background:#babacc; border-radius:8px; padding:10px;">
       <h2>Contact Page</h2>
       <img src="image/sparrows.jpg.jpg" alt="a picture of a sparrow bird" style="height:300px;">
       <p>
@@ -90,11 +108,25 @@
         voluptates ea, eligendi corporis laborum nostrum, fuga, minima sit ullam officiis sed at! Quos?
       </p>
     </section>
+    <section id="login" style="background:#666; border-radius:8px; padding:10px;">
+      <h3>Login Page</h3>
+      <form action="" method="POST">
+        <h3>Please Login here &#8595;</h3>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="!@#$%^&*&#60;&#62;"><br><br>
+        <textarea name="text" id="" cols="40" rows="20">Feedback</textarea><br>
+        <input type="submit" id="submit">
+        <input type="reset" id="reset">
+      </form>
+    </section>
   </main>
 
-  <footer>
-    <h3>This is the footer page</h3>
-    <p>Copyright &#169; &#60;&#60;&#60;<a href="https://google.com/" title="Google-link">Ajadi Isaac Olayinka</a>
+  <footer style="background:rgba(221, 121, 121, 0.596); border-radius:8px; padding:10px;">
+    <h3 style="text-align:center;">This is the footer page</h3>
+    <p style="text-align:center;">Copyright &#169; &#60;&#60;&#60;<a href="https://google.com/"
+        title="Google-link">Ajadi Isaac Olayinka</a>
       2023&#62;&#62;&#62;</p>
   </footer>
 </body>
