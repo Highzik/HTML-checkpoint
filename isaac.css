@@ -261,5 +261,17 @@
 }
 
 .panama-logo {
-  width: 450px;
+  width: 500px;
+}
+
+.dmain-blog-container {
+  background: #2c2e3f;
+  width: 500px;
+  padding-bottom: 200px;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.admin-date-container>p>img {
+  width: 500px;
 }
