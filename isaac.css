@@ -615,3 +615,7 @@
 .my-name {
   color: #FF4A57;
 }
+
+#my-name {
+  text-decoration: none;
+}
