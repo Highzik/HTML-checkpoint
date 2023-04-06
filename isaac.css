@@ -2,6 +2,7 @@
   margin: 0;
 }
 
+/*navigation section*/
 #header {
   background: #1f2235;
   display: flex;
@@ -41,6 +42,7 @@
   display: flex;
 }
 
+/*home section*/
 #home {
   padding-top: 120px;
   background: #23263A;
@@ -87,6 +89,7 @@
 .aside-container {
   display: inline-block;
 }
+
 
 .author-name {
   color: #fff;
@@ -141,6 +144,7 @@
   background: #FF4A57;
 }
 
+/* service section */
 #service {
   background: #1F2235;
   padding-bottom: 150px;
@@ -253,6 +257,8 @@
   width: 100%;
 }
 
+/*blog section*/
+
 #blog {
   background: #23263A;
   padding-bottom: 100px;
@@ -333,6 +339,7 @@
   margin-left: 15px;
 }
 
+/*about section*/
 #about {
   background: #1F2235;
   padding-bottom: 100px;
@@ -428,8 +435,9 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*contact section*/
 #contact {
-  background: #23263A;
+  background: #1f2235;
   padding-bottom: 100px;
 }
 
@@ -555,8 +563,9 @@
   cursor: pointer;
 }
 
+/*footer section*/
 #footer {
-  background: #1F2235;
+  background: #23263A;
   padding-bottom: 100px;
 }
 
@@ -618,4 +627,83 @@
 
 #my-name {
   text-decoration: none;
+}
+
+/*portfolio section*/
+#portfolio {
+  background: #23263A;
+  padding-bottom: 100px;
+}
+
+.portfolio-head-container {
+  margin: auto;
+  width: 500px;
+}
+
+.portfolio-showcase {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 500px;
+  line-height: 70px;
+}
+
+.portfolio-text {
+  color: #dadadb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 35px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.AABDW {
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #dadadb;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.work {
+  border: 2px solid #ff4a57;
+  padding: 7px 17px;
+  border-radius: 25px;
+  transition: 0.05s;
+}
+
+.work:hover {
+  background: #ff4a57;
+}
+
+.work-1,
+.work-2,
+.work-3,
+.work-4 {
+  padding: 7px 17px;
+  border-radius: 25px;
+  transition: 0.2s
+}
+
+.work-1:hover,
+.work-2:hover,
+.work-3:hover,
+.work-4:hover {
+  background: #ff4a57;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+}
+
+#diff-portfolio-sections {
+  width: 700px;
+  margin: auto;
+  margin-top: 55px;
 }
