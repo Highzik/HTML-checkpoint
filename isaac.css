@@ -623,6 +623,11 @@
 
 .my-name {
   color: #FF4A57;
+  transition: 0.2s;
+}
+
+.my-name:hover {
+  color: #fff;
 }
 
 #my-name {
@@ -656,6 +661,8 @@
   font-weight: bold;
   text-align: center;
   margin-top: 35px;
+  line-height: 25px;
+  margin-bottom: 15px;
   line-height: 30px;
   margin-bottom: 35px;
 }
@@ -706,4 +713,59 @@
   width: 700px;
   margin: auto;
   margin-top: 55px;
+}
+
+.left-img {
+  max-width: 350px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.mid-img {
+  max-height: 80vh;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.right-img {
+  max-width: 350px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.isotope-container {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 130px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 25px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.middle-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: 0.2s
 }
